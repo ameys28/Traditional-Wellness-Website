@@ -43,7 +43,8 @@ submitBtn.addEventListener("click", function(){
   current += 1;
   setTimeout(function(){
     alert("Your Form Successfully Signed up");
-    location.reload();
+    // location.reload();
+    window.location.href = "./landingpage.html";
   },800);
 });
 

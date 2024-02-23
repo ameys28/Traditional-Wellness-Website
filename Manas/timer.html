@@ -29,7 +29,7 @@
                 <button onclick="startTimer(900)">15 Minutes</button>
 
                 <audio id="timerSound">
-                    <source src="./misc/service-bell-ring-14610.mp3" type="audio/mpeg">
+                    <source src="./music.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
 
@@ -52,6 +52,8 @@ let timerInterval;
 let audio = document.getElementById('timerSound');
 
 function startTimer(durationInSeconds) {
+    playSound();
+
     clearInterval(timerInterval);
     const timerDisplay = document.getElementById('timer');
     
@@ -66,7 +68,6 @@ function startTimer(durationInSeconds) {
         if (--timer < 0) {
             clearInterval(timerInterval);
             timerDisplay.textContent = 'Time is up!';
-            playSound();
         }
     }, 1000);
 

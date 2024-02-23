@@ -1,4 +1,4 @@
-https://ameys28.github.io/Traditional-Wellness-Website/
+
 # Traditional Indian Wellness Site
 
 Welcome to our innovative online platform that seamlessly integrates traditional Indian practices like Ayurveda and Yoga to promote physical and mental well-being. Our platform encourages the adoption of healthy habits, stress reduction, and empowerment, catering to a global audience while fostering appreciation for diverse wellness approaches.
